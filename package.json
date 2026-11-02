@@ -9,21 +9,12 @@
         "lint": "prettier --write \"src/**/*.ts\""
     },
     "engines": {
-        "node": ">=12.5.0",
-        "yarn": ">=1.17.3"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/consumet/consumet.ts.git"
+        "node": ">=18.x"
     },
     "author": "prince-ao <princead@tutanota.com>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/consumet/consumet.ts/issues"
-    },
-    "homepage": "https://github.com/consumet/consumet.ts#readme",
     "dependencies": {
-        "@consumet/extensions": "git+https://github.com/consumet/consumet.ts.git",
+        "@consumet/extensions": "^1.5.0",
         "@fastify/cors": "^8.5.0",
         "@types/node": "^18.11.17",
         "@types/ws": "^8.5.3",
